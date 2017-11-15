@@ -1,7 +1,3 @@
-/**
- * eeeehm
- * */
-
 package com.assignment_4.main;
 
 import com.assignment_4.subclasses.BankCustomer;
@@ -10,9 +6,12 @@ import com.assignment_4.subclasses.SavingAccount;
 import com.assignment_4.superclasses.BankAccount;
 
 /**
- * @author Maaaads jhhyjh
- *
- */
+* Main Class for Assignment 04
+* 
+* @author Mads Barwen 
+* @version 1.0
+* @date 2017-11-15
+*/
 public class Main {
 
 	/**

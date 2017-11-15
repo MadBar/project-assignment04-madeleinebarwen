@@ -5,26 +5,42 @@ import java.util.ArrayList;
 import com.assignment_4.superclasses.BankAccount;
 import com.assignment_4.superclasses.Human;
 
+/**
+ * @author mads
+ *
+ */
 public class BankCustomer extends Human {
 
 	private ArrayList<BankAccount> customerAccounts = new ArrayList<BankAccount>();
 	// Object bla;
 
+	/**
+	 * @param name
+	 * @param age
+	 */
 	public BankCustomer(String name, int age) {
 		super(name, age);
 
 	}
 
+	/**
+	 * @return
+	 */
 	public ArrayList<BankAccount> getCustomerAccounts() {
 		return customerAccounts;
 	}
 
+	/**
+	 * @param customerAccounts
+	 */
 	public void setCustomerAccounts(
 			ArrayList<BankAccount> customerAccounts) {
 		this.customerAccounts = customerAccounts;
 	}
 
-	// Non Functional
+	/**
+	 * @param bankAccount
+	 */
 	public void addAccount(BankAccount bankAccount) {
 		// How to add an object to arraylist?
 		// ba = bankAccount;
@@ -46,6 +62,10 @@ public class BankCustomer extends Human {
 		}
 	}
 
+	/**
+	 * @param accountNumber
+	 * @param amount
+	 */
 	public void withdrawFromAccount(String accountNumber,
 			double amount) {
 		for (int i = 0; i < customerAccounts.size(); i++) {

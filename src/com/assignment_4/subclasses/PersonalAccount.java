@@ -4,6 +4,10 @@ import java.util.UUID;
 
 import com.assignment_4.superclasses.BankAccount;
 
+/**
+ * @author mads
+ *
+ */
 public class PersonalAccount extends BankAccount {
 
 	public PersonalAccount() {
