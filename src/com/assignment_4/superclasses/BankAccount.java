@@ -16,7 +16,7 @@ public class BankAccount implements BankOperations {
 	private double balance = 0.0;
 
 	/**
-	 * 
+	 * Constructor Method that sets values to a BankAccount
 	 */
 	public BankAccount() {
 		this.accountNumber = UUID.randomUUID().toString().substring(0, 6);
@@ -25,7 +25,8 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
-	 * @return
+	 * Getter Method for accountNumber attribute
+	 * @return accountNumber
 	 */
 	public String getAccountNumber() {
 		return accountNumber;
@@ -39,7 +40,8 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
-	 * @return
+	 * Getter Method for accountType attribute
+	 * @return accountType
 	 */
 	public String getAccountType() {
 		return accountType;
@@ -53,7 +55,8 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
-	 * @return
+	 * Getter Method for balance attribute
+	 * @return balance
 	 */
 	public double getBalance() {
 		return balance;
