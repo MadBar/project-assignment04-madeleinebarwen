@@ -6,9 +6,9 @@ import com.assignment_4.subclasses.SavingAccount;
 import com.assignment_4.superclasses.BankAccount;
 
 /**
-* Main Class for Assignment 04
+* Main Class for Assignment 04. This Class intanciate an object of the class BankCustomer, adds accounts to them, deposits and deducts money to/from the accounts and then prints the customer out to the screen.
 * 
-* @author Mads Barwen 
+* @author Mads Barwén 
 * @version 1.0
 * @date 2017-11-15
 */
