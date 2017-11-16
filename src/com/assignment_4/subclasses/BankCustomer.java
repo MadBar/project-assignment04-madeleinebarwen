@@ -11,7 +11,6 @@ import com.assignment_4.superclasses.Human;
  * you count toString? I haven't). It also has a constructor taking 2 parameters.
  * 
  * @author Madeleine Barwén
- *
  */
 public class BankCustomer extends Human {
 

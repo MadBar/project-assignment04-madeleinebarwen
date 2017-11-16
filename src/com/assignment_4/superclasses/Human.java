@@ -1,8 +1,9 @@
 package com.assignment_4.superclasses;
 
 /**
- * @author Maaaads
- *
+ * This is a class called Human. Has a constructor method, 2 attributes with getters and setters. 
+ * 
+ * @author Madeleine Barwén
  */
 public class Human {
 
@@ -21,6 +22,7 @@ public class Human {
 	}
 
 	/**
+	 * Getter Method for name attribute
 	 * @return name
 	 */
 	public String getName() {
@@ -28,6 +30,7 @@ public class Human {
 	}
 
 	/**
+	 * Setter Method for name attribute
 	 * @param name
 	 */
 	public void setName(String name) {
@@ -35,6 +38,7 @@ public class Human {
 	}
 
 	/**
+	 * Getter Method for age attribute
 	 * @return age
 	 */
 	public int getAge() {
@@ -42,6 +46,7 @@ public class Human {
 	}
 
 	/**
+	 * Setter Method for age attribute
 	 * @param age
 	 */
 	public void setAge(int age) {

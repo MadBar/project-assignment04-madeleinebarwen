@@ -8,6 +8,7 @@ import com.assignment_4.interfaces.BankOperations;
  * This is a class called BankAccount that implements Interface BankOperations.
  * It has a 3 attributes with getters and setters, constructor method and 3
  * overridden methods)
+ * 
  * @author Madeleine Barwén
  */
 public class BankAccount implements BankOperations {
@@ -33,6 +34,7 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
+	 * Setter Method for accountNumber attribute
 	 * @param accountName
 	 */
 	public void setAccountNumber(String accountName) {
@@ -48,6 +50,7 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
+	 * Setter Method for accountType attribute
 	 * @param accountType
 	 */
 	public void setAccountType(String accountType) {
@@ -63,6 +66,7 @@ public class BankAccount implements BankOperations {
 	}
 
 	/**
+	 * Setter Method for balance attribute
 	 * @param balance
 	 */
 	public void setBalance(double balance) {
