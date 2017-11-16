@@ -9,7 +9,7 @@ import com.assignment_4.interfaces.BankOperations;
  * It has a 3 attributes with getters and setters, constructor method and 3
  * overridden methods)
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwen
  */
 public class BankAccount implements BankOperations {
 	private String accountNumber = "";

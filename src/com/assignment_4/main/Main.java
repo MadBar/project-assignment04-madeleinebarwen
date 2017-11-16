@@ -8,7 +8,7 @@ import com.assignment_4.superclasses.BankAccount;
 /** 
  * Main Class for Assignment 04.
  * 
- * @author Madeleine Barw�n
+ * @author Madeleine Barwen
  * @version 1.0
  * @date 2017-11-15
  */

@@ -3,7 +3,7 @@ package com.assignment_4.superclasses;
 /**
  * This is a class called Human. Has a constructor method, 2 attributes with getters and setters. 
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwen
  */
 public class Human {
 

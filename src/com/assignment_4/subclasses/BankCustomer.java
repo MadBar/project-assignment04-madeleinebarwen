@@ -10,7 +10,7 @@ import com.assignment_4.superclasses.Human;
  * one attribut, getters and setters for that attribut and 3 more methods (should
  * you count toString? I haven't). It also has a constructor taking 2 parameters.
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwen
  */
 public class BankCustomer extends Human {
 

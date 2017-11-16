@@ -3,7 +3,7 @@ package com.assignment_4.interfaces;
 /**
  * This is an Interface it has two methods: withdrawMoney, depositMoney.
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwen
  */
 public interface BankOperations {
 	

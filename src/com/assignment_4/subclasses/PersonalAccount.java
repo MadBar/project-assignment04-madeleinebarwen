@@ -7,7 +7,7 @@ import com.assignment_4.superclasses.BankAccount;
 /**
  * This is a class called PersonalAccount that extends BankAccount. Has a constructor method.
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwen
  */
 public class PersonalAccount extends BankAccount {
 
