@@ -16,7 +16,6 @@ public class Human {
 	 * @param age
 	 */
 	public Human(String name, int age) {
-		// auto: super();
 		this.setName(name);
 		this.setAge(age);
 	}
