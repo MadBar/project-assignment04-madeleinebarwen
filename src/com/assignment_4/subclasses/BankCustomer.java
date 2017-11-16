@@ -80,8 +80,6 @@ public class BankCustomer extends Human {
 		}
 	}
 
-	// Needs much work. Loop to write out Accounts? Check chain, what happens
-	// where?
 	@Override
 	public String toString() {
 
