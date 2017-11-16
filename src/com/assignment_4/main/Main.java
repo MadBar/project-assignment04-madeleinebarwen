@@ -5,10 +5,10 @@ import com.assignment_4.subclasses.PersonalAccount;
 import com.assignment_4.subclasses.SavingAccount;
 import com.assignment_4.superclasses.BankAccount;
 
-/**
+/** 
  * Main Class for Assignment 04.
  * 
- * @author Madeleine Barwén
+ * @author Madeleine Barwï¿½n
  * @version 1.0
  * @date 2017-11-15
  */
