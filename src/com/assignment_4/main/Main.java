@@ -5,7 +5,7 @@ import com.assignment_4.subclasses.PersonalAccount;
 import com.assignment_4.subclasses.SavingAccount;
 import com.assignment_4.superclasses.BankAccount;
 
-/** 
+/**
  * Main Class for Assignment 04.
  * 
  * @author Madeleine Barwen
@@ -17,6 +17,7 @@ public class Main {
 	 * In the Main method we intanciate an object of the class BankCustomer, adds
 	 * accounts to them, deposits and deducts money to/from the accounts and then
 	 * prints the customer out to the screen.
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -44,16 +45,6 @@ public class Main {
 		bc.depositToAccount(account, 200);
 		System.out.println(bc.toString());
 
-		/*
-		 * GAMMAL UPG BankAccount bankAccount = new BankAccount();
-		 * System.out.println(bankAccount.toString()); bankAccount.depositMoney(200.0);
-		 * 
-		 * PersonalAccount pa = new PersonalAccount(); pa.depositMoney(70);
-		 * System.out.println(pa.toString()); pa.depositMoney(-1);
-		 * 
-		 * SavingAccount sa = new SavingAccount(); sa.withdrawMoney(-20);
-		 * sa.withdrawMoney(20); System.out.println(sa.toString());
-		 */
 	}
 
 }

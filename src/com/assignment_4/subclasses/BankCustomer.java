@@ -7,18 +7,19 @@ import com.assignment_4.superclasses.Human;
 
 /**
  * This is a class called BankCustomer that extends the Interface Human. It has
- * one attribut, getters and setters for that attribut and 3 more methods (should
- * you count toString? I haven't). It also has a constructor taking 2 parameters.
+ * one attribut, getters and setters for that attribut and 3 more methods
+ * (should you count toString? I haven't). It also has a constructor taking 2
+ * parameters.
  * 
  * @author Madeleine Barwen
  */
 public class BankCustomer extends Human {
 
 	private ArrayList<BankAccount> customerAccounts = new ArrayList<BankAccount>();
-	// Object bla;
 
 	/**
-	 * Constructor method. 
+	 * Constructor method.
+	 * 
 	 * @param name
 	 * @param age
 	 */
@@ -29,6 +30,7 @@ public class BankCustomer extends Human {
 
 	/**
 	 * Method that returns customerAccounts
+	 * 
 	 * @return
 	 */
 	public ArrayList<BankAccount> getCustomerAccounts() {
@@ -37,6 +39,7 @@ public class BankCustomer extends Human {
 
 	/**
 	 * Method that sets customerAccounts
+	 * 
 	 * @param customerAccounts
 	 */
 	public void setCustomerAccounts(ArrayList<BankAccount> customerAccounts) {
@@ -45,16 +48,16 @@ public class BankCustomer extends Human {
 
 	/**
 	 * Method that adds a bank account
+	 * 
 	 * @param bankAccount
 	 */
 	public void addAccount(BankAccount bankAccount) {
-		// How to add an object to arraylist?
-		// ba = bankAccount;
 		customerAccounts.add(bankAccount);
 	}
 
 	/**
 	 * Method that deposits money to an account.
+	 * 
 	 * @param accountNumber
 	 * @param amount
 	 */
@@ -68,6 +71,7 @@ public class BankCustomer extends Human {
 
 	/**
 	 * Method that withdraws money from an account.
+	 * 
 	 * @param accountNumber
 	 * @param amount
 	 */
